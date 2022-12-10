@@ -1,0 +1,109 @@
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: "Press Start 2P", sans-serif;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.score h2{
+    margin: 5rem 4rem 1rem 4rem;
+}
+
+.score h1{
+    font-size: 4rem;
+}
+h2,h1{
+    padding:0;
+    margin: 0;
+}
+
+.selection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:4rem;
+    min-height: 20rem;
+    font-size: 3rem;
+}
+
+.playing {
+    transform: scale(1.2);
+    color:#ffc600;
+  }
+img {
+    max-width: 80%;
+    height:auto;
+}
+.choices{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn{
+    margin: 2rem;
+    padding:0.5rem;
+    transition: all .3s ease;
+    border:solid;
+}
+
+.btn img{
+    margin: 1rem;
+    max-width: 30%;
+    height:auto;
+}
+.hide {
+    display:none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

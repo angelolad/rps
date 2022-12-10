@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+</head>
+
+<body>
+    <div class="container">
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id = "modal-text"></p>
+            </div>
+        </div>
+        <div class="header">
+            <h1>ROCK PAPER SCISSORS</h1>
+        </div>
+        <div class="content">
+            <div class="score">
+                <div>
+                    <h2>PLAYER</h2>
+                    <h1 id="score-player" class="score">0</h1>
+                </div>
+                <div>
+                    <h2>TIES</h2>
+                    <h1 id="score-tie" class="score">0</h1>
+                </div>
+                <div>
+                    <h2>CPU</h2>
+                    <h1 id="score-cpu" class="score">0</h1>
+                </div>
+            </div>
+            <div class="selection">
+                <div class="player-selection">
+                    <img src="#" id="playerImg" class="hide">
+                </div>
+                <div style="font-size:1.5rem">
+                    VS.
+                </div>
+                <div class="cpu-selection">
+                    <img src="#" id="cpuImg" class="hide">
+                </div>
+            </div>
+
+            <div class="choices">
+                <div class="btn" id="rckBtn">
+                    <div class="btn-image">
+                        <img src="images/rock.png">
+                    </div>
+                    ROCK
+                </div>
+                <div class="btn" id="pprBtn">
+                    <div class="btn-image">
+                        <img src="images/paper.png">
+                    </div>
+                    PAPER
+                </div>
+                <div class="btn" id="scsBtn">
+                    <div class="btn-image">
+                        <img src="images/scissors.png">
+                    </div>
+                    SCISSORS
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+
+</html>
